@@ -1,0 +1,444 @@
+
+
+
+.xcs-banner {
+  background-color: #482ff7;
+}
+
+.xcs-banner-title {
+  color: white;
+  font-weight: 600;
+  font-size: 24pt;
+}
+
+.xcs-banner-subtitle {
+  color: white;
+  font-size: 12pt;
+  margin-top: 12px !important;
+}
+
+.template-title {
+  font-size: 22pt;
+  color: black;
+  font-family: 'Playfair Display', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.template-subtitle {
+  font-size: 11pt;
+  color: black;
+  text-align: center;
+  width: 30%;
+}
+
+.template-category {
+  font-size: 12pt;
+  color: black;
+  font-weight: 500;
+}
+
+.template-img {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+  border-radius: 4px;
+}
+
+.template-dotnav>li.uk-active>a,
+.template-dotnav>li:hover>a {
+  background-color: #581b98;
+}
+
+.template-dotnav>li>a {
+  background-color: black;
+  width: 18px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.ecommerce-banner-heading {
+  color: black;
+  font-size: 18pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ecommerce-category>div>div>img {
+  border-radius: 6px;
+  object-fit: cover;
+  width: 100%;
+  height: 150px !important;
+}
+
+.ecommerce-category>div>div>p {
+  font-size: 10pt;
+  color: black;
+  text-align: left;
+}
+
+.hw-pos-heading {
+  font-size: 20pt;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
+
+.hw-pos-subheading {
+  font-size: 10pt;
+  color: grey;
+  text-align: center;
+}
+
+.logo-price-grid {
+  background-color: #f5f8fe;
+  border-radius: 16px;
+}
+
+.logo-price-title {
+  font-size: 16pt;
+  color: black;
+  font-weight: 600;
+  text-align: left;
+}
+
+.logo-price-details {
+  font-size: 11pt;
+  color: grey;
+  text-align: left;
+}
+
+.logo-price-img {
+  border-radius: 16px;
+}
+
+.logo-price-features {
+  color: #5f5f5f;
+  font-size: 11pt;
+  text-align: left;
+}
+
+.logo-price-features>span {
+  padding: 4px;
+  background-color: #482ff7;
+  border-radius: 50%;
+  color: white;
+  margin-right: 10px;
+}
+
+.logo-price-hr {
+  border-top: 1px dashed black;
+}
+
+.partners-list>li>div>img {
+  width: 145px !important;
+}
+
+.faq-accord>li {
+  border: 1px solid #969696;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.faq-accord>li>a {
+  color: black;
+  font-weight: 400;
+  font-size: 11pt;
+}
+
+.faq-accord-div {
+  margin-top: 6px !important;
+}
+
+.faq-details {
+  font-size: 10pt;
+  color: #969696;
+}
+
+.faq-accord>li.uk-open>a, .faq-accord>li>a:hover {
+  color: #482ff7;
+}
+
+.contact-banner-title {
+  font-size: 12pt;
+  color: #482ff7;
+  font-weight: 500;
+}
+
+.contact-banner-heading {
+  font-size: 38px;
+  color: #071e3d;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact-banner-subheading {
+  font-size: 10pt;
+  color: #071e3d60;
+  font-weight: 400;
+}
+
+.contact-linked-href {
+  font-size: 10pt;
+  color: #071e3d;
+  text-decoration: underline;
+}
+
+.hw-contact-heading {
+  font-size: 32px;
+  color: #071e3d;
+  text-align: left;
+  font-weight: 500;
+}
+
+
+.footer-container {
+  background-color: #071e3d;
+}
+
+.footer-logo {
+  width: 40px !important;
+}
+
+.footer-text {
+  color: #f3f3f3;
+  font-size: 10pt;
+}
+
+.footer-social>a {
+  margin-right: 10px;
+  color: white;
+  padding: 10px;
+  background-color: #f9f9f930;
+  border-radius: 25px;
+}
+
+.footer-social>a:hover {
+  color: #071e3d;
+  background-color: white;
+}
+
+.footer-heading {
+  color: #f9f9f9;
+  font-size: 11pt;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.footer-links {
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.footer-links>a {
+  color: #ffffff90;
+  font-size: 10pt;
+}
+
+.footer-links:hover>a {
+  color: white;
+}
+
+.footer-container>div>div>div>svg {
+  width: 180px;
+}
+
+.footer-container>div>div>div>svg>g>path.st0 {
+  fill: white !important;
+}
+
+/* create website starts here */
+
+.cw-mini-heading {
+  font-size: 10pt;
+  color: #071e3d;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.cw-main-header {
+  font-size: 37pt;
+  color: #071e3d;
+  font-weight: 900;
+  width: 96%;
+  margin-bottom: 0px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.cw-main-header>span {
+  text-decoration:3px underline #581b98;
+}
+
+.cw-starting-price {
+  font-size: 12pt;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  font-weight: 500;
+  color: #581b98;
+}
+
+.cw-header-features>li {
+  color: #071e3d;
+  font-size: 10pt;
+  margin: 2px;
+}
+
+.cw-header-features>li>span {
+  color: #482ff7;
+}
+
+.pricing-header {
+  font-size: 10pt;
+  color: #581b98;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pricing-title {
+  font-size: 24pt;
+  font-weight: 600;
+  color: #071e3d;
+  text-align: center;
+}
+
+.price-grid {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.price-title {
+  font-size: 22pt;
+  color: #071e3d;
+  font-weight: 800;
+  font-family: 'Playfair Display', sans-serif;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.price-details {
+  margin-top: 5px;
+  font-size: 10pt;
+  color: #482ff7;
+  text-align: left;
+}
+
+.price-button {
+  background-color: #071e3d;
+  padding: 8px;
+  border-radius: 8px;
+  color: #22eaaa;
+  text-transform: none;
+}
+
+.price-button:hover {
+  background-color: #071e3d;
+}
+
+.price-rate {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26pt;
+  color: #071e3d;
+  font-weight: 700;
+  text-align: left;
+}
+
+.price-rate>span {
+  font-size: 20pt;
+}
+
+.price-renew {
+  color: #071e3d;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 10pt;
+}
+
+.price-hr {
+  border-top: 1px dashed #071e3d;
+}
+
+.price-features>ul>li {
+  font-size: 11pt;
+  color: #071e3d;
+}
+
+.uk-bg-pm {
+  background-color: #071e3d;
+}
+
+.uk-bg-pr {
+  background-color: #482ff7;
+}
+
+.features-heading {
+  color: white;
+  font-size: 14pt;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.features-details {
+  font-size: 10pt;
+  color: white;
+  text-align: left;
+}
+
+.template-heading {
+  font-size: 12pt;
+  color: white;
+}
+
+.template-sub
+
+.category-badge {
+  background-color: #482ff7;
+  font-size: 10pt;
+  font-weight: 400;
+  padding: 15px 20px;
+}
+
+.cw-category-title {
+  color: white;
+  font-weight: 400;
+  font-size: 26pt;
+}
+
+.cw-category-title>span, .cw-category-title-2>span {
+  font-weight: 600;
+}
+
+.cw-category-details{
+  font-size: 12pt;
+  color: white;
+  font-weight: 400;
+}
+
+.cw-category-title-2 {
+  font-size: 26pt;
+  color: #071e3d;
+  font-weight: 400;
+}
+
+.cw-category-details-2 {
+  font-size: 12pt;
+  color: black;
+  font-weight: 400;
+}
+
+.cw-promo-header {
+  font-size: 28pt;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.uk-button-promo {
+  background: none;
+  border: 1px solid #f3f3f3;
+  color: white;
+  text-transform: capitalize;
+  padding: 2px 20px;
+  border-radius: 12px;
+}

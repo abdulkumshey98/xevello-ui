@@ -1,0 +1,193 @@
+.navbar {
+  background-color: #581b98 !important;
+  width: 100%;
+}
+
+.uk-navbar-toggle {
+  color: white;
+  display: none;
+}
+
+.uk-navbar-toggle>svg {
+  width: 15px;
+}
+
+
+.navbar>div>ul>li>a {
+  font-size: 10.5pt;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-transform: None;
+}
+
+.navbar>div>ul>li:active>a {
+  color: red !important;
+}
+
+.navbar>div>ul>li>a:hover {
+  color: azure;
+}
+
+.navbar-1>div>ul>a {
+  width: 125px;
+}
+
+.navbar-1>div>ul>a.uk-logo>svg>g>.st0 {
+  fill: white;
+}
+
+
+.uk-navbar-nav > li > a, .uk-navbar-item, .uk-navbar-toggle {
+  min-height: 78px;
+}
+
+
+.xcs-link {
+  font-size: 10pt;
+  color: #f01154 !important;
+}
+
+.nav-profile-grid {
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-profile-grid>div>ul>li>a {
+  font-size: 10pt !important;
+  font-family: 'Poppins', sans-serif;
+  color: #071e3d;
+}
+
+.nav-profile-grid>div>ul>li:last-child {
+  margin-bottom: 5px;
+}
+
+.nav-profile-grid>div>ul>li>a:hover {
+  color: #581b98;
+}
+
+.user-icon {
+  display: none;
+}
+
+.login-text {
+  display: flex;
+}
+
+
+#side-menu>div{
+  background-color: white;
+}
+
+.side-logo {
+  width: 120px;
+}
+
+.side-logo>g>path.st0 {
+  fill: #071e3d;
+}
+
+.side-hr {
+  border-top: 1px dashed #071e3d !important;
+}
+
+.side-nav>li {
+  margin-top: 10px;
+  padding: 6px;
+  padding-left: 12px;
+}
+
+.side-nav>li>a {
+  color: black !important;
+  font-size: 10pt;
+}
+
+.side-subnav {
+  color: #071e3d !important;
+  font-size: 10pt;
+  margin-top: 10px;
+}
+
+.side-nav>li.uk-open>a>span {
+  transform: rotate(90deg);
+}
+
+.uk-nav-parent-icon>.uk-parent>a::after {
+  display: none;
+}
+
+.uk-offcanvas-close>svg {
+  color: #071e3d;
+  width: 12px;
+}
+
+
+.login-btn {
+  background-color: white;
+  color: #581b98;
+  text-transform: none;
+  font-size: 10pt;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-btn:active {
+  border: none;
+}
+
+.login-btn:hover {
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+  .uk-navbar-toggle {
+      display: flex;
+  }
+
+  .navbar>div>ul>li {
+      display: none;
+  }
+
+  .login-btn {
+      background: none;
+      color: white;
+      padding: 0px;
+      border: none;
+  }
+
+  .login-text {
+      display: none;
+  }
+
+  .user-icon {
+      display: flex;
+  }
+
+  .login-btn:hover {
+      background: none;
+      color: white;
+      border: none !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar-header-1 {
+      height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navbar-header-1 {
+      height: 360px !important;
+  }
+
+
+}

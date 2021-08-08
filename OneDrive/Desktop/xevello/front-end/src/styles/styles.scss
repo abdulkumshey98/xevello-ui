@@ -1,11 +1,66 @@
 @import 'variables';
- @import 'mixins';
- @import 'custom';
- /* UIKit */
- @import "variables-theme.scss";
- @import "mixins-theme.scss";
- @import "uikit-theme.scss";
+@import 'mixins';
+@import 'custom';
+/* UIKit */
+@import "variables-theme.scss";
+@import "mixins-theme.scss";
+@import "uikit-theme.scss";
 
- @import "tailwindcss/base";
+@import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import 'material-icons/iconfont/material-icons.css';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f8fe;
+}
+
+
+
+.uk-button-danger {
+  background-color: #ce2424;
+  text-transform: none;
+  border-radius: 8px;
+}
+
+.uk-button-danger:hover {
+  background-color: #df2525
+}
+
+.uk-short-heading {
+  font-size: 10pt;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.uk-button-default {
+  background-color: white !important;
+  padding: 4px 20px;
+  color: black;
+  border-radius: 6px;
+  text-transform: none;
+}
+
+.uk-button-default:hover {
+  border: 1px solid white;
+  background: none !important;
+  color: white;
+}
+
+
+.uk-button-primary {
+  background-color: #581b98 !important;
+  color: white;
+  text-transform: capitalize;
+  padding: 5px 25px;
+  border-radius: 4px;
+}
+
+.uk-button-primary:hover {
+  background-color: #22eaaa !important;
+  color: black !important;
+}
+

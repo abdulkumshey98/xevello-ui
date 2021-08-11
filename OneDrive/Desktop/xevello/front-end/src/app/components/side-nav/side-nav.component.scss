@@ -1,0 +1,45 @@
+#side-menu>div{
+  background-color: white;
+}
+
+.side-logo {
+  width: 120px;
+}
+
+.side-logo>g>path.st0 {
+  fill: #071e3d;
+}
+
+.side-hr {
+  border-top: 1px dashed #071e3d !important;
+}
+
+.side-nav>li {
+  margin-top: 10px;
+  padding: 6px;
+  padding-left: 12px;
+}
+
+.side-nav>li>a {
+  color: black !important;
+  font-size: 10pt;
+}
+
+.side-subnav {
+  color: #071e3d !important;
+  font-size: 10pt;
+  margin-top: 10px;
+}
+
+.side-nav>li.uk-open>a>span {
+  transform: rotate(90deg);
+}
+
+.uk-nav-parent-icon>.uk-parent>a::after {
+  display: none;
+}
+
+.uk-offcanvas-close {
+  color: #071e3d;
+  width: 25px;
+}

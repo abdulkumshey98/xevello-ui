@@ -1,0 +1,103 @@
+
+.contact-banner-title {
+  font-size: 12pt;
+  color: #482ff7;
+  font-weight: 500;
+}
+
+.contact-banner-heading {
+  font-size: 38px;
+  color: #071e3d;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact-banner-subheading {
+  font-size: 10pt;
+  color: #071e3d60;
+  font-weight: 400;
+}
+
+.contact-linked-href {
+  font-size: 10pt;
+  color: #071e3d;
+  text-decoration: underline;
+}
+
+.hw-contact-heading {
+  font-size: 32px;
+  color: #071e3d;
+  text-align: left;
+  font-weight: 500;
+}
+
+
+.footer-container {
+  background-color: #071e3d;
+}
+
+.footer-logo {
+  width: 40px !important;
+}
+
+.footer-text {
+  color: #f3f3f3;
+  font-size: 10pt;
+}
+
+.footer-social>a {
+  margin-right: 10px;
+  color: white;
+  padding: 10px;
+  background-color: #f9f9f930;
+  border-radius: 25px;
+}
+
+.footer-social>a:hover {
+  color: #071e3d;
+  background-color: white;
+}
+
+.footer-heading {
+  color: #f9f9f9;
+  font-size: 11pt;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.footer-links {
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.footer-links>a {
+  color: #ffffff90;
+  font-size: 10pt;
+}
+
+.footer-links:hover>a {
+  color: white;
+}
+
+.footer-container>div>div>div>svg {
+  width: 180px;
+}
+
+.footer-container>div>div>div>svg>g>path.st0 {
+  fill: white !important;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-banner-heading {
+    font-size: 18pt;
+  }
+
+  .hw-contact-heading {
+    font-size: 14pt;
+  }
+}

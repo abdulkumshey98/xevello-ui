@@ -15,6 +15,7 @@ import { BillingPosComponent } from './components/billing-pos/billing-pos.compon
 import { OnlineGroceryComponent } from './components/online-grocery/online-grocery.component';
 import { FoodDeliveryComponent } from './components/food-delivery/food-delivery.component';
 import { RetailPosComponent } from './components/retail-pos/retail-pos.component';
+import { SideNavComponent } from './components/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RetailPosComponent } from './components/retail-pos/retail-pos.component
     BillingPosComponent,
     OnlineGroceryComponent,
     FoodDeliveryComponent,
-    RetailPosComponent
+    RetailPosComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,

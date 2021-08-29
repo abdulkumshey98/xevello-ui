@@ -215,66 +215,6 @@
   text-align: center;
 }
 
-.price-grid {
-  background-color: white;
-  border-radius: 6px;
-}
-
-.price-title {
-  font-size: 22pt;
-  color: #071e3d;
-  font-weight: 800;
-  font-family: 'Playfair Display', sans-serif;
-  text-align: left;
-  margin-bottom: 5px;
-}
-
-.price-details {
-  margin-top: 5px;
-  font-size: 10pt;
-  color: #482ff7;
-  text-align: left;
-}
-
-.price-button {
-  background-color: #071e3d;
-  padding: 8px;
-  border-radius: 8px;
-  color: #22eaaa;
-  text-transform: none;
-}
-
-.price-button:hover {
-  background-color: #071e3d;
-}
-
-.price-rate {
-  font-family: 'Roboto', sans-serif;
-  font-size: 26pt;
-  color: #071e3d;
-  font-weight: 700;
-  text-align: left;
-}
-
-.price-rate>span {
-  font-size: 20pt;
-}
-
-.price-renew {
-  color: #071e3d;
-  font-family: 'Roboto', sans-serif;
-  text-align: left;
-  font-size: 10pt;
-}
-
-.price-hr {
-  border-top: 1px dashed #071e3d;
-}
-
-.price-features>ul>li {
-  font-size: 11pt;
-  color: #071e3d;
-}
 
 .uk-bg-pm {
   background-color: #071e3d;
@@ -302,14 +242,6 @@
   color: white;
 }
 
-.template-sub
-
-.category-badge {
-  background-color: #482ff7;
-  font-size: 10pt;
-  font-weight: 400;
-  padding: 15px 20px;
-}
 
 .cw-category-title {
   color: white;
@@ -357,13 +289,5 @@
 
 .hw-branding-details {
   font-size: 11pt;
-  color: black;
-}
-
-.hw-branding-title {
-  font-size: 28pt;
-  width: 70%;
-  font-family: 'Playfair Display', sans-serif;
-  font-style: italic;
   color: black;
 }

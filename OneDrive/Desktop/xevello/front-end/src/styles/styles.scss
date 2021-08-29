@@ -10,13 +10,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import 'material-icons/iconfont/material-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f5f8fe;
 }
-
-
 
 .uk-button-danger {
   background-color: #ce2424;
@@ -64,4 +64,204 @@ body {
   color: black !important;
 }
 
+.header-heading {
+  font-size: 10pt;
+  color: #071e3d;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main-header {
+  font-size: 37pt;
+  color: #071e3d;
+  font-weight: 900;
+  width: 96%;
+  margin-bottom: 0px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.main-header>span {
+  text-decoration:3px underline #581b98;
+}
+
+.header-starting-price {
+  font-size: 12pt;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  font-weight: 500;
+  color: #581b98;
+}
+
+.header-features>li {
+  color: #071e3d;
+  font-size: 10pt;
+  margin: 2px;
+}
+
+.header-features>li>span {
+  color: #482ff7;
+}
+
+.price-grid {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.pricing-offers {
+  padding: 12px;
+  font-size: 9pt;
+  background-color: #22eaaa;
+  color: #071e3d !important;
+}
+
+.price-title {
+  font-size: 22pt;
+  color: #071e3d;
+  font-weight: 800;
+  font-family: 'Playfair Display', sans-serif;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.price-details {
+  margin-top: 5px;
+  font-size: 10pt;
+  color: #482ff7;
+  text-align: left;
+}
+
+.price-button {
+  background-color: #071e3d;
+  padding: 8px;
+  border-radius: 8px;
+  color: #22eaaa;
+  margin: 10px;
+  margin-left: 0px;
+  text-transform: none;
+}
+
+.price-button:hover {
+  background-color: #071e3d;
+}
+
+.price-rate {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26pt;
+  color: #071e3d;
+  font-weight: 700;
+  text-align: left;
+}
+
+.price-rate>span {
+  font-size: 20pt;
+}
+
+.price-renew {
+  color: #071e3d;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 10pt;
+}
+
+.price-hr {
+  border-top: 1px dashed #071e3d;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.price-features>ul>li {
+  font-size: 10pt;
+  color: #071e3d;
+}
+
+.uk-button-promo {
+  background: none;
+  border: 1px solid #f3f3f3;
+  color: white;
+  text-transform: capitalize;
+  padding: 2px 20px;
+  border-radius: 12px;
+}
+
+.promo-header {
+  font-size: 28pt;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.pt-plan-name {
+  font-size: 12pt;
+  color: black;
+  text-transform: capitalize;
+}
+
+.pt-plan-aslow {
+  font-size: 10pt;
+  color: #333333;
+  font-weight: 400;
+  margin-top: 9pt;
+  margin-bottom: 0px;
+  text-transform:none ;
+}
+
+.pt-plan-price {
+  font-size: 28pt;
+  margin-top: 0px;
+  color: black;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.pt-plan-price>span:last-child {
+  font-size: 12pt;
+  text-transform: none;
+}
+
+.pt-plan-btn {
+  background-color: #071e3d;
+    padding: 7px;
+    color: #22eaaa;
+    border-radius: 4px;
+    margin: 10px;
+    margin-left: 0px;
+    text-transform: none;
+}
+
+.pt-plan-heading {
+  width: 25%;
+}
+
+.pt-plan-features {
+  font-size: 10pt;
+  text-align: left ;
+  font-weight: 500;
+  color: black;
+}
+
+.pt-plan-span {
+  font-size: 10pt;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(73, 73, 73);
+}
+
+.pt-plan-span>span {
+  color: #0fa878;
+  font-size: 14pt;
+}
+
+.pt-plan-span>span.not-ft {
+  color: red;
+}
+
+
+.category-badge {
+  background-color: #482ff7;
+  font-size: 9pt;
+  font-weight: 400;
+  padding: 12px;
+}
 

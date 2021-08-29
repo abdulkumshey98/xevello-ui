@@ -58,11 +58,21 @@
   text-decoration-color: #581b98;
 }
 
+
 .feature-grid-quote>span {
   font-size: 22pt;
   text-decoration: solid !important;
 }
 
+
+.hw-branding-title {
+  font-weight: 900;
+  font-size: 28pt;
+  width: 90%;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: italic;
+  color: black;
+}
 
 @media only screen and (max-width: 1100px) {
   .home-grid-column {

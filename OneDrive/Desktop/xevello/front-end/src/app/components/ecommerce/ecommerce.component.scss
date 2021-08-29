@@ -1,0 +1,23 @@
+@import url('../create-website/create-website.component.scss');
+
+.et-heading {
+  font-size: 22pt;
+  color: black;
+  text-align: center;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.et-img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.et-title {
+  font-size: 10pt;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}

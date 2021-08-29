@@ -4,7 +4,7 @@
     <a class="uk-navbar-toggle w-11" uk-navbar-toggle-icon href="#side-menu" uk-toggle></a>
 
     <ul class="uk-navbar-nav">
-      <a class="uk-navbar-item uk-logo" >
+      <a class="uk-navbar-item uk-logo" routerLink="">
 
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px" y="0px" viewBox="0 0 325 85" style="enable-background:new 0 0 325 85;" xml:space="preserve">
@@ -45,11 +45,10 @@ c-1.4,1.4-3.1,2.2-5.3,2.2c-1.9,0-3.6-0.7-5-2.2c-1.4-1.4-2.2-3.1-2.2-5.3c0-1.9,0.
         </svg>
 
       </a>
-      <li><a routerLink="">Create Website</a></li>
-      <li><a href="online-store.html">Online Store</a></li>
-      <li><a href="logo-design.html">Logo Design</a></li>
-      <li><a href="#">Start Blogging</a></li>
-      <li><a href="#">POS & Billing</a></li>
+      <li><a routerLink="/create-website">Create Website</a></li>
+      <li><a routerLink="/online-store">Online Store</a></li>
+      <li><a routerLink="/logo-design">Logo Design</a></li>
+      <li><a routerLink="/pos-billing">POS & Billing</a></li>
     </ul>
 
   </div>
@@ -86,3 +85,5 @@ c-1.4,1.4-3.1,2.2-5.3,2.2c-1.9,0-3.6-0.7-5-2.2c-1.4-1.4-2.2-3.1-2.2-5.3c0-1.9,0.
   </div>
 
 </nav>
+
+<app-side-nav></app-side-nav>

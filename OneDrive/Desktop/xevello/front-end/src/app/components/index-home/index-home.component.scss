@@ -1,6 +1,6 @@
 
 .navbar-header-1 {
-  background-color: #581b98;
+  background-color: #4b0082;
   height: 550px;
   width: 100%;
   background-repeat: no-repeat;
@@ -46,7 +46,7 @@
 .feature-grid-details {
   color: black;
   font-size: 10.5 pt;
-  width: 85%;
+  width: 95%;
 }
 
 .feature-grid-quote {
@@ -72,6 +72,12 @@
   font-family: 'Playfair Display', sans-serif;
   font-style: italic;
   color: black;
+}
+
+.logo-price-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1100px) {

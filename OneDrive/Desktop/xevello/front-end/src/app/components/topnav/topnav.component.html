@@ -49,6 +49,7 @@ c-1.4,1.4-3.1,2.2-5.3,2.2c-1.9,0-3.6-0.7-5-2.2c-1.4-1.4-2.2-3.1-2.2-5.3c0-1.9,0.
       <li><a routerLink="/online-store">Online Store</a></li>
       <li><a routerLink="/logo-design">Logo Design</a></li>
       <li><a routerLink="/pos-billing">POS & Billing</a></li>
+      <li><a routerLink="/online-grocery">Online Grocery</a></li>
     </ul>
 
   </div>
@@ -58,27 +59,35 @@ c-1.4,1.4-3.1,2.2-5.3,2.2c-1.9,0-3.6-0.7-5-2.2c-1.4-1.4-2.2-3.1-2.2-5.3c0-1.9,0.
     <ul class="uk-navbar-nav">
       <li><a href="#">Support</a></li>
       <div class="uk-navbar-item">
-        <form action="javascript:void(0)">
-          <button class="uk-button login-btn"> <span class="user-icon" uk-icon="icon: user;ratio: 0.8;"></span> <span
-              class="login-text">Log In</span>
-          </button>
-          <div class="uk-width-1-6@m uk-width-auto" uk-drop="mode:click;">
-            <div class="uk-card uk-card-body uk-card-default uk-align-right nav-profile-grid">
-              <div>
-                <ul class="uk-nav uk-nav-default">
-                  <li><a href="#">Profile</a></li>
-                  <li><a href="#">Mail</a></li>
-                  <li><a href="#">Item</a></li>
+        <button class="uk-button login-btn "> <span class="user-icon" uk-icon="icon: user;ratio: 0.8;"></span> <span
+            class="login-text">Sign In </span>
+        </button>
+        <div class="uk-width-1-6@m" uk-drop="mode:click; pos:bottom-right;">
+          <div
+            class="uk-card uk-width-1-1@m uk-width-1-2 uk-card-body uk-card-default uk-padding-small uk-align-right nav-profile-grid">
+            <div>
+              <span class="premium-usericon uk-float-right" uk-icon="icon: star; ratio: 0.8"></span>
+              <p class="user-name">Sauban sada</p>
+              <p class="user-mail">a****k@gmail.com</p>
+              <hr class="uk-margin-small-top">
+              <p class="drop-heading uk-margin-small-top">
+                Account
+              </p>
+              <div class="uk-width-1-1@s uk-width-1-1@m">
+                <ul class="uk-nav uk-nav-default drop-nav">
+                  <li><a routerLink="/signin">Account Info</a></li>
+                  <li><a href="#">My Product</a></li>
+                  <li><a href="#">Renews & Billing</a></li>
+                  <hr>
+                  <li><a href="#">Logout</a></li>
                 </ul>
               </div>
-              <button class="uk-button uk-button-danger uk-width-1-1"> <span uk-icon="icon: sign-out;ratio: 0.8"></span>
-                Logout</button>
             </div>
           </div>
-        </form>
+        </div>
       </div>
       <div class="uk-navbar-item">
-        <a style="color: white;" href="" uk-icon="icon: cart"></a>
+        <a style="color: white;" href="/cart" uk-icon="icon: cart"></a>
       </div>
     </ul>
 

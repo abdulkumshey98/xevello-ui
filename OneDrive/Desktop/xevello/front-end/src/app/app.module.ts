@@ -16,6 +16,10 @@ import { OnlineGroceryComponent } from './components/online-grocery/online-groce
 import { FoodDeliveryComponent } from './components/food-delivery/food-delivery.component';
 import { RetailPosComponent } from './components/retail-pos/retail-pos.component';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
+import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassword.component';
+import { CartComponent } from './components/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { SideNavComponent } from './components/side-nav/side-nav.component';
     OnlineGroceryComponent,
     FoodDeliveryComponent,
     RetailPosComponent,
-    SideNavComponent
+    SideNavComponent,
+    LoginComponent,
+    SignupComponent,
+    ForgetpasswordComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

@@ -19,10 +19,10 @@
       </div>
     </div>
   </div>
-  <div class="uk-container cart-container uk-container-large">
+  <div class="uk-container cart-container uk-container-large uk-margin-large-bottom">
     <div class="uk-text-center" uk-grid>
       <div class="uk-width-expand@m">
-        <div class="uk-card uk-card-body uk-padding-remove uk-margin-large-bottom">
+        <div class="uk-card uk-card-body uk-padding-remove uk-margin-large-bottom ">
           <table class="uk-table uk-text-left">
             <thead class="th_cart">
               <tr>
@@ -56,16 +56,36 @@
           </table>
           <form class="uk-grid-small" uk-grid>
             <div class="uk-width-1-3@s">
-              <input class="uk-input cart-input" type="text" placeholder="100">
+              <input class="uk-input cart-input" type="text" placeholder="Enter coupon code">
             </div>
-            <div class="uk-width-1-5@s">
-              <button class="uk-button cart-submit">apply coupon</button>
+            <div class="uk-width-1-5@m">
+              <button class="uk-button cart-submit uk-width-1-1">apply coupon</button>
             </div>
           </form>
         </div>
       </div>
       <div class="uk-width-1-4@m uk-margin-remove-top">
-        <div class="uk-card infocart-grid uk-card-body"></div>
+        <div class="uk-card infocart-grid uk-padding-small uk-card-body">
+          <p class="order-summary">Order Summary</p>
+          <table class="uk-table uk-table-striped uk-table-small uk-text-left tds_summary">
+            <caption></caption>
+            <tbody>
+              <tr>
+                <td>Subtotal</td>
+                <td class="price">₹ 7,699.40</td>
+              </tr>
+              <tr>
+                <td>Coupon <span>[test]</span> <span uk-icon="icon: close; ratio: 0.6;"></span></td>
+                <td class="price">- ₹3,079.40</td>
+              </tr>
+              <tr class="total">
+                <td>Total </td>
+                <td class="price">₹4,619.40</td>
+              </tr>
+            </tbody>
+          </table>
+          <button routerLink="/checkout" class="uk-button cart-submit uk-width-1-1 uk-button-small">Proceed to Checkout</button>
+        </div>
       </div>
     </div>
   </div>

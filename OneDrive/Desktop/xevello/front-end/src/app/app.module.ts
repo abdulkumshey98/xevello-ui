@@ -20,6 +20,16 @@ import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassword.component';
 import { CartComponent } from './components/cart/cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { CompleteComponent } from './components/complete/complete.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { BlogsComponent } from './components/blogs/blogs.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { FaqsComponent } from './components/faqs/faqs.component';
+import { TermsComponent } from './components/terms/terms.component';
+import { CareersComponent } from './components/careers/careers.component';
+import { PartnersProgramComponent } from './components/partners-program/partners-program.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +50,17 @@ import { CartComponent } from './components/cart/cart.component';
     LoginComponent,
     SignupComponent,
     ForgetpasswordComponent,
-    CartComponent
+    CartComponent,
+    CheckoutComponent,
+    CompleteComponent,
+    AboutUsComponent,
+    BlogsComponent,
+    ContactUsComponent,
+    FaqsComponent,
+    TermsComponent,
+    CareersComponent,
+    PartnersProgramComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
